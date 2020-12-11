@@ -4,6 +4,9 @@ from scipy import stats
 from scipy.stats import norm
 import pandas as pd
 
+import matplotlib.pyplot as plt
+plt.rcParams["font.family"] = "Times New Roman"
+
 # Read in data and examine first 10 rows
 data = pd.read_csv('delta-changes.csv')
 
